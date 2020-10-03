@@ -1,3 +1,11 @@
+let result = localStorage.getItem('result');
+let titleNotes = localStorage.getItem('titleNotes');
+if(result!=null && titleNotes==null){
+    localStorage.removeItem(result);
+}
+else if(result==null && titleNotes!=null){
+    localStorage.removeItem(titleNotes);
+}
 showNotes();
 document.getElementById('but').addEventListener('click', function (e) {
     let text = document.getElementById('text');
