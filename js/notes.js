@@ -67,14 +67,14 @@ function showNotes() {
 
         let element = document.getElementById('notes');
         element.innerHTML = card;
-        document.getElementById('wrapper').style.height = "";
-        if (result == "[]") {
-            document.getElementById('wrapper').style.height = "100vh";
-        }
+        // document.getElementById('wrapper').style.height = "";
+        // if (result == "[]") {
+        //     document.getElementById('wrapper').style.height = "100vh";
+        // }
     }
-    else {
-        document.getElementById('wrapper').style.height = "100vh";
-    }
+    // else {
+    //     document.getElementById('wrapper').style.height = "100vh";
+    // }
 
 }
 function deleteNotes(i) {
