@@ -4,11 +4,12 @@
     margin-left: 10px;
     /* display: none; */
 }
-#wrapper{
-    background-image: url('../images/notes3.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+body{
+    background: url('../images/notes3.jpg') no-repeat center center;
     background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
 }
 #text{
     background: none;
